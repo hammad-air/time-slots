@@ -217,6 +217,13 @@ function validateCalURL(url) {
   }
 }
 
+
+app.get("/api/slots", (req, res) => {
+
+  res.send("App is Listening")
+
+})
+
 // ENDPOINTS
 app.get("/api/slots", (req, res) => {
   let { url, limit, timezone, daysLimit } = req.query;
