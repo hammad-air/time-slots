@@ -1,0 +1,17 @@
+{
+    "timezone": "Europe/Copenhagen",
+    "port": 5000,
+    "defaultSlotLimit": 5,
+    "defaultDaysLimit": 3,
+    "shiftHours": {
+        "start": "08:00",
+        "end": "18:00",
+        "range": [8, 18]
+    },
+    "weekdays": 5,
+    "slotDuration": 10,
+    "slotInterval": 0,
+
+    "slotBufferBefore": 30,
+    "slotBufferAfter": 30
+}
