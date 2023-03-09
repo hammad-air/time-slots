@@ -218,11 +218,11 @@ function validateCalURL(url) {
 }
 
 
-app.get("/api/slots", (req, res) => {
+// app.get("/api/slots", (req, res) => {
 
-  res.send("App is Listening")
+//   res.send("App is Listening")
 
-})
+// })
 
 // ENDPOINTS
 app.get("/api/slots", (req, res) => {
