@@ -1,5 +1,8 @@
 {
 
+  "scripts": {
+    "start": "nodemon server.js"
+  },
   "dependencies": {
 
     "async": "^3.2.4",
